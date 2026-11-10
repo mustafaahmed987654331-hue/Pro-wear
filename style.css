@@ -452,7 +452,7 @@ contact body{
   text-decoration: none;
   list-style: none;
   margin:auto 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 .nav-links li a{
     color: white;
@@ -488,7 +488,7 @@ contact body{
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 6%;
+    margin-top: -22%;
     letter-spacing: 3px;
 }
 .hood-head h1{
