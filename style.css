@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #ffff;
+    overflow-x: hidden;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+.logo h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+.logo{
+    width: 50%;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.nav-links ul{
+ display: flex;
+ justify-content: flex-end;
+  gap: 20px;
+   padding: 10px; 
+  text-decoration: none;
+  list-style: none;
+  margin:auto 0;
+}
+.nav-links li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.nav-links li a:hover{
+    cursor: pointer;
+    color: blue;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+}
+.banner img{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 3%;
+
+}
+.hood-head{
+    width: 100%;
+    height:170px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+    letter-spacing: 3px;
+}
+.hood-head h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 90px;
+    padding: auto;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+.hoodie{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10px;
+}
+.hoodies{
+    width: 100%;
+    height: 600px;
+    background-image:url(img/1319abec-a829-4bf7-8097-853391ec7384.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.heading1{
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 5s;
+ padding: 10px ;
+}
+.heading1 h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+}
+.shop{
+    width: 100%;
+    text-align: center;
+}
+.shop button{
+    background-color: rgb(202, 200, 200);
+    margin-top: 5%;
+}
+.shop button a{
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.shop button a:hover{
+    color: white;
+}
+.trousers{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.trouser{
+    width: 100%;
+    height: 600px;
+    background-image:url(img/trousers.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.shop2{
+    width: 100%;
+    text-align: center;
+}
+.shop2 button{
+    background-color: rgb(202, 200, 200);
+    margin-top: 9%;
+}
+.t-head{
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 10s;
+ padding: 10px ;
+}
+.t-head h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+}
+.tees{
+    width: 100%;
+     width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+.t-shirts{
+     width: 100%;
+    height: 600px;
+    background-image:url(img/tees.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.t-head2{
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 16s;
+ padding: 10px ;
+}
+.t-head2 h1{
+    color: black;
+    font-size: 55px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+}
+.shop3{
+    width: 100%;
+    text-align: center;
+}
+.shop3 button{
+    background-color: rgb(202, 200, 200);
+    margin-top: 9%;
+}
+.shop3 button a{
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.shop3 button a:hover{
+    color: white;
+}
+.p-2{
+    display: none;
+}
+.the-para{
+    display: flex;
+}
+.h-head{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.h-head h1{
+     color: white;
+  margin: 0 auto;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 65px;
+    padding: auto;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+.h-head2{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.h-head2 h1{
+     color: white;
+  margin: 0 auto;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 65px;
+    padding: auto;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+.card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    height: 1300px;
+    row-gap: 40px;
+    background-color: rgb(30, 30, 30);
+}
+
+.card{
+    width: 280px;
+    height: 380px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 18px !important;
+    overflow:hidden;
+}
+.card img{
+    height: 180px;
+    width: 200px;
+    margin: 0 auto;
+}
+.card h5{
+  font-size: large;
+  font-weight: 600;
+}
+.card p{
+    font-weight: 500;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card button{
+    color: black;
+}
+.card button:hover{
+    background-color: rgb(27, 26, 26);
+}
+.trouser.html{
+    background-color:rgb(30, 30, 30);
+ ;
+}
+
+.shop2 button a{
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+.shop2 button a:hover{
+    color: white;
+}
+.header3{
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 5px solid white;
+    height: 90px;
+    width: 100%;
+}
+.header3 h1{
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 70px;
+    padding: auto;
+    font-weight: 200;
+    word-spacing: 5px;
+    color: rgb(93, 80, 8);
+    margin: 0 auto;
+}
+.body3{
+    background-color: black;
+}
+contact body{
+    background-color: black;
+}
+.cnt-para{
+    border-bottom: 2px solid #ffff;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+}
+.cnt-para p{
+ 
+}
+.cnt-box1 h2{
+    color: #ffff;
+}
+.cnt-box1{
+    border-bottom: 2px solid #ffff;
+    height: 300px;
+    margin: 5px;
+}
+.logo1{
+    margin: 5px;
+}
+.cnt-box2 h2{
+ color: #ffff;
+ margin: 5px;
+}
+.cnt-box2{
+    height: 400px;
+}
+.abt-header{
+    text-align: center;
+    width: 100%;
+}
+.abt-header h1{
+    margin: 0 auto;
+    color: white;
+}
+.cnt-body{
+    background-color: black;
+}
+.the-head{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+}
+.the-head h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+.the-heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-weight: 300;
+
+}
+.the-heading{
+    margin-top: 15px;
+    padding: 10px;
+}
+.the-heading h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 70px;
+    color: white;
+    font-weight: 300;
+}
+.the-para{
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+}
+.the-para p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    margin: 0 auto;
+    color :#ffff;
+    line-height: 60px;
+    border-top: 1px solid white;
+}
+.the-body{
+    background-color: black;
+}
+@media screen and (min-width: 375px) and (max-width: 576px){
+    .logo h1{
+    color: white;
+    font-size: 27px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 15px;
+    margin-top: 8%;
+    margin-left: -4px;
+}
+.logo{
+    width: 80%;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+.nav-links ul{
+ display: flex;
+ justify-content: flex-end;
+  gap: 10px;
+   padding: 10px; 
+  text-decoration: none;
+  list-style: none;
+  margin:auto 0;
+  font-size: 12px;
+}
+.nav-links li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner img{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 10%;
+
+}
+.banner h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: dancing script;
+    margin-top: 5%;
+}
+.hood-head{
+    width: 100%;
+    height:90px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 6%;
+    letter-spacing: 3px;
+}
+.hood-head h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+    padding: auto;
+    font-weight: 300;
+    word-spacing: 5px;
+    padding-top: 3%;
+}
+.hoodie{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: -20px;
+}
+.hoodies{
+    width: 100%;
+    height:550px;
+    background-image:url(img/1319abec-a829-4bf7-8097-853391ec7384.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.heading1{
+    width: 100%;
+    height: 80px;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 5s;
+ padding: 10px ;
+}
+.heading1 h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration:none;  
+  margin-top: 4%;
+  border-bottom: 2px solid black;
+}
+.t-head{
+    width: 100%;
+    height: 80px;
+    margin-top: 2%;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 10s;
+ padding: 10px ;
+}
+.t-head h1{
+    color: black;
+    font-size: 45px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration:none;
+    margin-top: 2%;
+    border-bottom: 2px solid black;
+}
+.trousers{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.trouser{
+    width: 100%;
+    height: 600px;
+    background-image:url(img/trousers.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.t-shirts{
+     width: 100%;
+    height: 600px;
+    background-image:url(img/tees.jfif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.t-head2{
+    width: 100%;
+    height: 80px;
+    margin-top: 10%;
+  animation: move 1.5s ease-in-out alternate;   
+ animation-iteration-count: 2;
+ animation-delay: 16s;
+ padding: 10px ;
+}
+.t-head2 h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration:none;
+    margin-top: 5%;
+    border-bottom: 2px solid black;
+}
+.card-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    height: 1700px;
+    row-gap: 20px;
+    background-color: rgb(30, 30, 30);
+}
+
+.card{
+    width: 180px;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 9%;
+    border-radius: 18px !important;
+    overflow:hidden;
+}
+.card img{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+}
+.card h5{
+  font-size: 16px;
+  font-weight: 600;
+}
+.card p{
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h-head h1{
+    font-size: 45px;
+}
+.h-head2 h1{
+    font-size: 30px;
+    margin-top: 5%;
+}
+.header3 h1{
+    font-size: 36px;
+    margin-top: 5%;
+}
+.the-heading h1{
+    font-size: 45px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+.the-heading h2{
+    font-size: 35px;
+
+}
+.the-para p{
+  font-size: 18px;
+  padding: 10px;
+  border:  1px solid white;
+}
+.p-2{
+    color: white;
+    font-size: 18px;
+}
+}
